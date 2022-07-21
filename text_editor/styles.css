@@ -41,6 +41,84 @@ body {
     transition: 0.5s;
 }
 
+.flex-file-toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    color: #fff;
+}
+
+.post {
+    padding: 6vh 0vh;
+}
+
+.share {
+    padding: 6vh 0vh;
+}
+
+.save {
+    padding: 6vh 0vh;
+}
+
+.open {
+    padding: 6vh 0vh;
+}
+
+.new {
+    padding: 6vh 0vh;
+}
+
+.delete {
+    padding: 6vh 0vh;
+}
+
+.flex-textarea-toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    color: #fff;
+}
+
+.align-left {
+    padding: 3.5vh 0vw;
+}
+
+.align-center {
+    padding: 3.5vh 0vw;
+}
+
+.align-right {
+    padding: 3.5vh 0vw;
+}
+
+.bold-text {
+    padding: 3.5vh 0vw;
+}
+
+.italic-text {
+    padding: 3.5vh 0vw;
+}
+
+.uppercase {
+    padding: 3.5vh 0vw;
+}
+
+.lowercase {
+    padding: 3.5vh 0vw;
+}
+
+.capitalize {
+    padding: 3.5vh 0vw;
+}
+
+.clear-text {
+    padding: 3.5vh 0vw;
+}
+
 #file-toolbar:hover,
 #textarea-toolbar:hover {
     box-shadow: 0.2em 0.2em 2em #952525;

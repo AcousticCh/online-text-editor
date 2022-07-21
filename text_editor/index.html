@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--
+        delete file:<i class="fa-solid fa-trash"></i>
+        undo delete: <i class="fa-solid fa-rotate-left"></i> 1 week to undo
+        new file: <i class="fa-solid fa-file"></i>
+        open file: <i class="fa-solid fa-folder"></i>
+        save file: <i class="fa-solid fa-sd-card"></i>
+        share file: <i class="fa-solid fa-share-from-square"></i>
+        post: <i class="fa-solid fa-upload"></i>
+
+        align-left: <i class="fa-solid fa-align-left"></i>
+        align-center: <i class="fa-solid fa-align-center"></i>
+        align-right: <i class="fa-solid fa-align-right"></i>
+        bold text: <i class="fa-solid fa-bold"></i>
+        italic text: <i class="fa-solid fa-italic"></i>
+        uppercase: <i class="fa-solid fa-u"></i>
+        lowercase: <i class="fa-solid fa-l"></i>
+        capitalize: <i class="fa-solid fa-c"></i>
+        clear text: <i class="fa-solid fa-d"></i>
+
+    -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/d8a298c102.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
         <div id="file-toolbar">
-            <div class="flex-toolbar"></div>
+            <div class="flex-file-toolbar">
+                <div class="post"><i class="fa-solid fa-upload"></i></div>
+                <div class="share"><i class="fa-solid fa-share-from-square"></i></div>
+                <div class="save"><i class="fa-solid fa-sd-card"></i></div>
+                <div class="open"><i class="fa-solid fa-folder"></i></div>
+                <div class="new"><i class="fa-solid fa-file"></i></div>
+                <div class="delete"><i class="fa-solid fa-trash"></i></div>
+            </div>
         </div>
 
-        <div id="textarea-toolbar">
-            <div class="flex-toolbar"></div>
-        </div>
+        
         
         <div id="textarea-box">
             <textarea id="textarea"
@@ -21,6 +47,21 @@
                     rows="15"
                     col="100"
                     placeholder="Type here..."></textarea>
+        </div>
+
+
+        <div id="textarea-toolbar">
+            <div class="flex-textarea-toolbar">
+                <div class="align-left"><i class="fa-solid fa-align-left"></i></div>
+                <div class="align-center"><i class="fa-solid fa-align-center"></i></div>
+                <div class="align-right"><i class="fa-solid fa-align-right"></i></div>
+                <div class="bold-text"><i class="fa-solid fa-bold"></i></div>
+                <div class="italic-text"><i class="fa-solid fa-italic"></i></div>
+                <div class="uppercase"><i class="fa-solid fa-u"></i></div>
+                <div class="lowercase"><i class="fa-solid fa-l"></i></div>
+                <div class="capitalize"><i class="fa-solid fa-c"></i></div>
+                <div class="clear-text"><i class="fa-solid fa-d"></i></div>
+            </div>
         </div>
     </body>
 </html>
